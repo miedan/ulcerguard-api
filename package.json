@@ -1,0 +1,19 @@
+{
+    "author": "UlcerGuard Team",
+    "license": "ISC",
+    "name": "ulcerguar-api",
+    "version": "1.0.0",
+    "description": "API for the UlcerGuard mobile app and dashboard",
+    "main": "server.js",
+    "scripts": {
+        "serve": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.19.2",
+        "JSON": "^1.0.0",
+        "token": "^0.1.0",
+        "web": "^0.0.2"
+    }
+}
